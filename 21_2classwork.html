@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .figure1{
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent ;
+            border-bottom: 200px solid blue;
+            transform: rotate(90deg);
+            
+        }
+        .figure1:hover{
+            border-bottom:  200px solid red ;
+        }
+        .figure2{
+            width: 100px;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent ;
+            border-bottom: 200px solid gold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="figure1"></div>
+        <div class="figure2"></div>
+    </div>
+</body>
+</html>
